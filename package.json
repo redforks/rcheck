@@ -1,5 +1,5 @@
 {
-  "name": "rcheck",
+  "name": "rcheck-ts",
   "version": "1.0.0",
   "description": "Runtime validation",
   "main": "lib/index.js",
