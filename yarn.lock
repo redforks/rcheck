@@ -2242,10 +2242,10 @@ ms@^2.1.1:
   resolved "http://registry.npm.taobao.org/ms/download/ms-2.1.1.tgz#30a5864eb3ebb0a66f2ebe6d727af06a09d86e0a"
   integrity sha1-MKWGTrPrsKZvLr5tcnrwagnYbgo=
 
-mytslint@^1.0.7:
-  version "1.0.7"
-  resolved "http://registry.npm.taobao.org/mytslint/download/mytslint-1.0.7.tgz#f0ae13c834c894353c73d28413632d0b1bb80f35"
-  integrity sha1-8K4TyDTIlDU8c9KEE2MtCxu4DzU=
+mytslint@^1.4.0:
+  version "1.4.0"
+  resolved "http://registry.npm.taobao.org/mytslint/download/mytslint-1.4.0.tgz#b092ff2d7edb05635c2ad7fde15bb3eb8260088d"
+  integrity sha1-sJL/LX7bBWNcKtf94Vuz64JgCI0=
 
 nan@^2.9.2:
   version "2.10.0"
@@ -3306,10 +3306,10 @@ tslib@^1.8.0, tslib@^1.8.1:
   resolved "http://registry.npm.taobao.org/tslib/download/tslib-1.9.3.tgz#d7e4dd79245d85428c4d7e4822a79917954ca286"
   integrity sha1-1+TdeSRdhUKMTX5IIqeZF5VMooY=
 
-tslint@^5.10.0:
-  version "5.11.0"
-  resolved "http://registry.npm.taobao.org/tslint/download/tslint-5.11.0.tgz#98f30c02eae3cde7006201e4c33cb08b48581eed"
-  integrity sha1-mPMMAurjzecAYgHkwzywi0hYHu0=
+tslint@^5.12.1:
+  version "5.12.1"
+  resolved "http://registry.npm.taobao.org/tslint/download/tslint-5.12.1.tgz#8cec9d454cf8a1de9b0a26d7bdbad6de362e52c1"
+  integrity sha1-jOydRUz4od6bCibXvbrW3jYuUsE=
   dependencies:
     babel-code-frame "^6.22.0"
     builtin-modules "^1.1.1"
@@ -3350,7 +3350,7 @@ type-check@~0.3.2:
   dependencies:
     prelude-ls "~1.1.2"
 
-typescript@^3.2.4:
+typescript@^3.3.3333:
   version "3.3.3333"
   resolved "http://registry.npm.taobao.org/typescript/download/typescript-3.3.3333.tgz#171b2c5af66c59e9431199117a3bcadc66fdcfd6"
   integrity sha1-FxssWvZsWelDEZkRejvK3Gb9z9Y=

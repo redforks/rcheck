@@ -5,17 +5,19 @@
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "lint": "tsc --noEmit -p . && tslint --project . ",
+    "test": "jest"
   },
   "author": "redforks@gmail.com",
   "license": "MIT",
   "devDependencies": {
     "@types/jest": "^24.0.6",
     "jest": "^24.1.0",
-    "mytslint": "^1.0.7",
+    "mytslint": "^1.4.0",
     "ts-jest": "^24.0.0",
-    "tslint": "^5.10.0",
-    "typescript": "^3.2.4"
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.3333"
   },
   "jest": {
     "transform": {
