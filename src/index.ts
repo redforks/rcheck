@@ -1,8 +1,12 @@
 export function assert(test: any, message?: string) {
-  const prefix = 'Assertion failed';
   if (!test) {
-    throw Error(message ? `${prefix}: ${message}` : prefix);
+    fail(message);
   }
+}
+
+export function fail(message?: string) {
+  const prefix = 'Assertion failed';
+  throw Error(message ? `${prefix}: ${message}` : prefix);
 }
 
 export function notNull<T>(v: T | null | undefined, message?: string): T {
