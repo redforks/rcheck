@@ -4,7 +4,7 @@ export function assert(test: any, message?: string) {
   }
 }
 
-export function fail(message?: string) {
+export function fail(message?: string): never {
   const prefix = 'Assertion failed';
   throw Error(message ? `${prefix}: ${message}` : prefix);
 }
